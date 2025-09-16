@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/leads")
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "http://localhost:5173/", 
+    "https://splendorous-truffle-da5cba.netlify.app")
 public class LeadController {
 
     @Autowired
